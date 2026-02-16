@@ -76,3 +76,12 @@ All outputs must be:
 Phase 1: System design and architecture modeling.
 No production code yet.
 Focus on structure, system design, and documentation.
+
+## Language Policy
+
+All responses, documentation, and outputs must be written in Korean.
+
+Technical terms may include English in parentheses if necessary.
+Do not default to English.
+
+Claude must always consider files inside docs/ as core context for strategic decisions.
