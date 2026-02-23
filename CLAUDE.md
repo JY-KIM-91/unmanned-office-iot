@@ -85,3 +85,11 @@ Technical terms may include English in parentheses if necessary.
 Do not default to English.
 
 Claude must always consider files inside docs/ as core context for strategic decisions.
+
+
+# 출력 포맷 (Output Format)
+작성된 결과물은 노션(Notion)에 그대로 복사해서 붙여넣었을 때 서식이 완벽하게 적용되도록 최적화된 마크다운(Markdown) 포맷으로 작성해 주십시오.
+- 제목(H1, H2, H3), 글머리 기호(-), 번호 매기기(1.)를 활용하여 문서의 계층 구조를 명확히 하십시오.
+- 핵심 강조 사항, 요약, 또는 고객사 페인포인트 등은 인용구(`>`) 블록을 사용하여 시각적으로 돋보이게 처리하십시오.
+- 주요 요구사항(Epic 및 User Story), 스프린트 일정표, 스토리 점수 등은 가독성을 위해 반드시 마크다운 표(Table) 형식을 활용하십시오.
+- 실행 과제나 마일스톤은 노션의 할 일 목록 형태로 전환되도록 체크박스(`- [ ]`) 형태를 활용하십시오.
